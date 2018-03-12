@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="60dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inKP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:hint="@string/KP" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inKI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_ki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="@string/KI" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inKD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_kd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="@string/KD" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ToggleButton android:id="@+id/btn_send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/Send"
+            android:textOn="@string/Stopsend"
+            android:checked="false"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+
+        <ToggleButton android:id="@+id/connectBT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textOff="Connect"
+            android:textOn="Disconnect"
+            android:checked="false"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

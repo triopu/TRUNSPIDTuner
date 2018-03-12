@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TRUNSPIDTuner</string>
+    <string name="action_settings">Settings</string>
+    <string name="KP">Enter KP variable</string>
+    <string name="KI">Enter KI variable</string>
+    <string name="KD">Enter KD variable</string>
+    <string name="Send">Send KP, KI, KD</string>
+    <string name="Stopsend">No KP, KI, KD</string>
+    <string name="ErrKP">Enter your KP variable</string>
+    <string name="ErrKI">Enter your KI variable</string>
+    <string name="ErrKD">Enter your KD variable</string>
+</resources>
